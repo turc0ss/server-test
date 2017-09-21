@@ -4,6 +4,10 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.tmattila.model.DateStorageModel;
+import com.tmattila.repository.DateRepository;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.server.VaadinRequest;
@@ -21,6 +25,9 @@ import com.vaadin.ui.HorizontalLayout;
 @Theme("valo")
 @Title("This is a test")
 public class DateUI extends UI {
+	
+	@Autowired
+	DateRepository repo;
 
 	private Label headerLabel;
 	private Label dateLabel;
@@ -56,6 +63,7 @@ public class DateUI extends UI {
 				dateLabel = new Label(timeLabel + formattedDate, ContentMode.HTML);
 				
 				buttonLayout.addComponent(dateLabel);
+				repo.save(new DateStorageModel("DATE", formattedDate));
 				System.out.println(formattedDate);
 				
 			}
