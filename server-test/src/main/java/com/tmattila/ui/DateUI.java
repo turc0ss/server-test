@@ -29,8 +29,7 @@ public class DateUI extends UI {
 	@Autowired
 	DateRepository repo;
 
-	// Declare the variables
-	
+	// declare private variables
 	private Label headerLabel;
 	private Label dateLabel;
 	private Date date;
