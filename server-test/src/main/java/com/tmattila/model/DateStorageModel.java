@@ -81,7 +81,7 @@ public class DateStorageModel {
 	}
 
 	/**
-	 * This is a comment for the setDate setter method
+	 * This is a comment for the setDate setter method.
 	 * @param date ***is the date parameter***
 	 */
 	public final void setDate(final String date) {

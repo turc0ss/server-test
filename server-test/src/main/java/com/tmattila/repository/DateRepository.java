@@ -6,6 +6,11 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.tmattila.model.DateStorageModel;
 
-public interface DateRepository extends MongoRepository<DateStorageModel, Date>{
+/**
+ *
+ * @author tapsa
+ *
+ */
+public interface DateRepository extends MongoRepository<DateStorageModel, Date > {
 
 }
