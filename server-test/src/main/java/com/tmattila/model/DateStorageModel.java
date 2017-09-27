@@ -31,7 +31,7 @@ public class DateStorageModel {
 	private String date;
 
 	/**
-	 * This is a comment fot the DateStorageModel constructor
+	 * This is a comment for the DateStorageModel constructor.
 	 * @param title ***is the title parameter***
 	 * @param date ***is the date parameter***
 	 */
@@ -49,8 +49,8 @@ public class DateStorageModel {
 	}
 
 	/**
-	 *
-	 * @param id
+	 * This is a comment for the setId setter method.
+	 * @param id ***is the id parameter***
 	 */
 	public final void setId(final String id) {
 		this.id = id;
@@ -65,8 +65,8 @@ public class DateStorageModel {
 	}
 
 	/**
-	 *
-	 * @param title
+	 * This is a comment for the setTitle setter method.
+	 * @param title ***is the title parameter***
 	 */
 	public final void setTitle(final String title) {
 		this.title = title;
@@ -81,8 +81,8 @@ public class DateStorageModel {
 	}
 
 	/**
-	 *
-	 * @param date
+	 * This is a comment for the setDate setter method
+	 * @param date ***is the date parameter***
 	 */
 	public final void setDate(final String date) {
 		this.date = date;
