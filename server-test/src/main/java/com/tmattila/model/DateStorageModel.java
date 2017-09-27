@@ -16,36 +16,68 @@ public class DateStorageModel {
 	@Field(value = "DATE")
 	private String date;
 
+	/**
+	 * 
+	 * @param title
+	 * @param date
+	 */
 	public DateStorageModel(final String title, final String date) {
 		this.title = title;
 		this.date = date;
 	}
-
-	public String getId() {
+	
+	/**
+	 * 
+	 * @return id
+	 */
+	public final String getId() {
 		return id;
 	}
 
-	public void setId(final String id) {
+	/**
+	 * 
+	 * @param id
+	 */
+	public final void setId(final String id) {
 		this.id = id;
 	}
 
-	public String getTitle() {
+	/**
+	 * 
+	 * @return title
+	 */
+	public final String getTitle() {
 		return title;
 	}
 
-	public void setTitle(final String title) {
+	/**
+	 * 
+	 * @param title
+	 */
+	public final void setTitle(final String title) {
 		this.title = title;
 	}
 
-	public String getDate() {
+	/**
+	 * 
+	 * @return date
+	 */
+	public final String getDate() {
 		return date;
 	}
 	
-	public void setDate(final String date) {
+	/**
+	 * 
+	 * @param date
+	 */
+	public final void setDate(final String date) {
 		this.date = date;
 	}
 	
-	public String toString() {
+	/**
+	 * toString shows id, title and date in string format.
+	 */
+	public final String toString() {
 		return "ID: " + this.id + " TITLE: " + this.title + " DATE: " + this.date;
 	}
 
