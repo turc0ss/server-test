@@ -13,27 +13,27 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class DateStorageModel {
 
 	/**
-	 * String id
+	 * String id.
 	 */
 	@Id
 	private String id;
 
 	/**
-	 * String title
+	 * String title.
 	 */
 	@Field(value = "TITLE")
 	private String title;
 
 	/**
-	 * String date
+	 * String date.
 	 */
 	@Field(value = "DATE")
 	private String date;
 
 	/**
-	 *
-	 * @param title
-	 * @param date
+	 * This is a comment fot the DateStorageModel constructor
+	 * @param title ***is the title parameter***
+	 * @param date ***is the date parameter***
 	 */
 	public DateStorageModel(final String title, final String date) {
 		this.title = title;
