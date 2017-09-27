@@ -16,7 +16,7 @@ public class DateStorageModel {
 	@Field(value = "DATE")
 	private String date;
 
-	public DateStorageModel(String title, String date) {
+	public DateStorageModel(final String title, final String date) {
 		this.title = title;
 		this.date = date;
 	}
@@ -25,7 +25,7 @@ public class DateStorageModel {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(final String id) {
 		this.id = id;
 	}
 
@@ -33,7 +33,7 @@ public class DateStorageModel {
 		return title;
 	}
 
-	public void setTitle(String title) {
+	public void setTitle(final String title) {
 		this.title = title;
 	}
 
@@ -41,7 +41,7 @@ public class DateStorageModel {
 		return date;
 	}
 	
-	public void setDate(String date) {
+	public void setDate(final String date) {
 		this.date = date;
 	}
 	

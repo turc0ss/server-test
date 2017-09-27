@@ -14,6 +14,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 public class App extends SpringBootServletInitializer {
 
 	/**
+	 * 
 	 * @param args
 	 */
 	public static void main(final String[] args) {
@@ -21,9 +22,7 @@ public class App extends SpringBootServletInitializer {
 	}
 
 	@Override
-	protected final SpringApplicationBuilder 
-		configure(final SpringApplicationBuilder builder) {
-		
+	protected final SpringApplicationBuilder configure(final SpringApplicationBuilder builder) {
 		return builder.sources(App.class);
 	}
 }
