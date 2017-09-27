@@ -11,6 +11,6 @@ import com.tmattila.model.DateStorageModel;
  * @author tapsa
  *
  */
-public interface DateRepository extends MongoRepository<DateStorageModel, Date > {
+public interface DateRepository extends MongoRepository<DateStorageModel, Date> {
 
 }
