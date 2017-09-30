@@ -74,7 +74,7 @@ public class DateUI extends UI {
 
 		VerticalLayout headerLayout = new VerticalLayout();
 
-		headerLabel = new Label("<h2><b>Welcome to date storage application TESTING JENKINS DEPLOY</b></h2><br>", ContentMode.HTML);
+		headerLabel = new Label("<h2><b>Welcome to date storage application JENKINS DEPLOY TEST2</b></h2><br>", ContentMode.HTML);
 		headerLayout.addComponent(headerLabel);
 
 		VerticalLayout buttonLayout = new VerticalLayout();
